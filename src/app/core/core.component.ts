@@ -35,7 +35,7 @@ export class CoreComponent implements OnInit {
 
   doAutomaticFetch() {
     this.automaticFetchTimer = setInterval(() =>
-      this.fetchUser(), 3000);
+      this.fetchUser(), 20000);
     this.hasStartedAutoFetch = true;
   }
 
